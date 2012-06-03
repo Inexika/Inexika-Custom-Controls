@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomControllsTableViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UINavigationController *viewController;
+@property (strong, nonatomic) UIViewController *viewController;
 
 @end

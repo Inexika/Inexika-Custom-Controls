@@ -28,23 +28,6 @@
 		357C6DEE153D3A2000C3EDDB /* ixPickerOverlayTexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 357C6DE0153D3A2000C3EDDB /* ixPickerOverlayTexture@2x.png */; };
 		357C6DEF153D3A2000C3EDDB /* IXPickerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357C6DE2153D3A2000C3EDDB /* IXPickerOverlayView.m */; };
 		357C6DF2153D3D6300C3EDDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357C6DF1153D3D6300C3EDDB /* QuartzCore.framework */; };
-		B6D55096155B77450095FFBC /* CustomControllsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D55094155B77450095FFBC /* CustomControllsTableViewController.m */; };
-		B6D550B1155B888E0095FFBC /* IXActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550B0155B888E0095FFBC /* IXActionSheetController.m */; };
-		B6D550B4155B88D30095FFBC /* ActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550B3155B88D30095FFBC /* ActionSheetController.m */; };
-		B6D550D6155B95650095FFBC /* CoreGraphicsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550D3155B95650095FFBC /* CoreGraphicsUtils.m */; };
-		B6D550D7155B95650095FFBC /* IXColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550D5155B95650095FFBC /* IXColorPickerView.m */; };
-		B6D550E8155B9D980095FFBC /* blackCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E2155B9D980095FFBC /* blackCircle.png */; };
-		B6D550E9155B9D980095FFBC /* blackCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E3155B9D980095FFBC /* blackCircle@2x.png */; };
-		B6D550EA155B9D980095FFBC /* colorCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E4155B9D980095FFBC /* colorCircle.png */; };
-		B6D550EB155B9D980095FFBC /* colorCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E5155B9D980095FFBC /* colorCircle@2x.png */; };
-		B6D550EC155B9D980095FFBC /* colorSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E6155B9D980095FFBC /* colorSelection.png */; };
-		B6D550ED155B9D980095FFBC /* colorSelection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550E7155B9D980095FFBC /* colorSelection@2x.png */; };
-		B6D550F0155BA03A0095FFBC /* ColorPickerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550EF155BA03A0095FFBC /* ColorPickerControllerViewController.m */; };
-		B6D550F4155BA6FF0095FFBC /* brightnessSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550F1155BA6FF0095FFBC /* brightnessSlider.png */; };
-		B6D550F5155BA6FF0095FFBC /* brightnessSlider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550F2155BA6FF0095FFBC /* brightnessSlider@2x.png */; };
-		B6D550F6155BA6FF0095FFBC /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D550F3155BA6FF0095FFBC /* gradient.png */; };
-		B6D55100155BC5E20095FFBC /* BrightnessSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D550FF155BC5E20095FFBC /* BrightnessSliderView.m */; };
-		B6D55102155BD9420095FFBC /* CustomControllsTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D55101155BD9420095FFBC /* CustomControllsTableView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,33 +57,6 @@
 		357C6DE1153D3A2000C3EDDB /* IXPickerOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXPickerOverlayView.h; sourceTree = "<group>"; };
 		357C6DE2153D3A2000C3EDDB /* IXPickerOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXPickerOverlayView.m; sourceTree = "<group>"; };
 		357C6DF1153D3D6300C3EDDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B6D55093155B77450095FFBC /* CustomControllsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomControllsTableViewController.h; sourceTree = "<group>"; };
-		B6D55094155B77450095FFBC /* CustomControllsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomControllsTableViewController.m; sourceTree = "<group>"; };
-		B6D550A5155B79400095FFBC /* DatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
-		B6D550A6155B79400095FFBC /* DatePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
-		B6D550A7155B79400095FFBC /* DatePickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerController.xib; sourceTree = "<group>"; };
-		B6D550AF155B888E0095FFBC /* IXActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXActionSheetController.h; sourceTree = "<group>"; };
-		B6D550B0155B888E0095FFBC /* IXActionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXActionSheetController.m; sourceTree = "<group>"; };
-		B6D550B2155B88D30095FFBC /* ActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetController.h; sourceTree = "<group>"; };
-		B6D550B3155B88D30095FFBC /* ActionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetController.m; sourceTree = "<group>"; };
-		B6D550D2155B95650095FFBC /* CoreGraphicsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsUtils.h; sourceTree = "<group>"; };
-		B6D550D3155B95650095FFBC /* CoreGraphicsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsUtils.m; sourceTree = "<group>"; };
-		B6D550D4155B95650095FFBC /* IXColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXColorPickerView.h; sourceTree = "<group>"; };
-		B6D550D5155B95650095FFBC /* IXColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXColorPickerView.m; sourceTree = "<group>"; };
-		B6D550E2155B9D980095FFBC /* blackCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCircle.png; sourceTree = "<group>"; };
-		B6D550E3155B9D980095FFBC /* blackCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackCircle@2x.png"; sourceTree = "<group>"; };
-		B6D550E4155B9D980095FFBC /* colorCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorCircle.png; sourceTree = "<group>"; };
-		B6D550E5155B9D980095FFBC /* colorCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorCircle@2x.png"; sourceTree = "<group>"; };
-		B6D550E6155B9D980095FFBC /* colorSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorSelection.png; sourceTree = "<group>"; };
-		B6D550E7155B9D980095FFBC /* colorSelection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorSelection@2x.png"; sourceTree = "<group>"; };
-		B6D550EE155BA03A0095FFBC /* ColorPickerControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerControllerViewController.h; path = IXColorPicker/ColorPickerControllerViewController.h; sourceTree = SOURCE_ROOT; };
-		B6D550EF155BA03A0095FFBC /* ColorPickerControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerControllerViewController.m; path = IXColorPicker/ColorPickerControllerViewController.m; sourceTree = SOURCE_ROOT; };
-		B6D550F1155BA6FF0095FFBC /* brightnessSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightnessSlider.png; sourceTree = "<group>"; };
-		B6D550F2155BA6FF0095FFBC /* brightnessSlider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightnessSlider@2x.png"; sourceTree = "<group>"; };
-		B6D550F3155BA6FF0095FFBC /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
-		B6D550FE155BC5E20095FFBC /* BrightnessSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessSliderView.h; sourceTree = "<group>"; };
-		B6D550FF155BC5E20095FFBC /* BrightnessSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessSliderView.m; sourceTree = "<group>"; };
-		B6D55101155BD9420095FFBC /* CustomControllsTableView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomControllsTableView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +77,6 @@
 		357C6DA4153D39CB00C3EDDB = {
 			isa = PBXGroup;
 			children = (
-				B6D55101155BD9420095FFBC /* CustomControllsTableView.storyboard */,
-				B6D550D1155B95650095FFBC /* IXColorPicker */,
-				B6D550AE155B888E0095FFBC /* IXActionSheetController */,
 				357C6DD4153D3A2000C3EDDB /* IXPickerOverlayView */,
 				357C6DB9153D39CC00C3EDDB /* PickerOverlaySample */,
 				357C6DB2153D39CC00C3EDDB /* Frameworks */,
@@ -153,15 +106,10 @@
 		357C6DB9153D39CC00C3EDDB /* PickerOverlaySample */ = {
 			isa = PBXGroup;
 			children = (
-				B6D550A5155B79400095FFBC /* DatePickerController.h */,
-				B6D550A6155B79400095FFBC /* DatePickerController.m */,
-				B6D550A7155B79400095FFBC /* DatePickerController.xib */,
 				357C6DC2153D39CC00C3EDDB /* AppDelegate.h */,
 				357C6DC3153D39CC00C3EDDB /* AppDelegate.m */,
 				357C6DC8153D39CC00C3EDDB /* ViewController.xib */,
 				357C6DBA153D39CC00C3EDDB /* Supporting Files */,
-				B6D55093155B77450095FFBC /* CustomControllsTableViewController.h */,
-				B6D55094155B77450095FFBC /* CustomControllsTableViewController.m */,
 			);
 			path = PickerOverlaySample;
 			sourceTree = "<group>";
@@ -196,41 +144,6 @@
 				357C6DE2153D3A2000C3EDDB /* IXPickerOverlayView.m */,
 			);
 			path = IXPickerOverlayView;
-			sourceTree = "<group>";
-		};
-		B6D550AE155B888E0095FFBC /* IXActionSheetController */ = {
-			isa = PBXGroup;
-			children = (
-				B6D550AF155B888E0095FFBC /* IXActionSheetController.h */,
-				B6D550B0155B888E0095FFBC /* IXActionSheetController.m */,
-				B6D550B2155B88D30095FFBC /* ActionSheetController.h */,
-				B6D550B3155B88D30095FFBC /* ActionSheetController.m */,
-			);
-			path = IXActionSheetController;
-			sourceTree = "<group>";
-		};
-		B6D550D1155B95650095FFBC /* IXColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				B6D550EE155BA03A0095FFBC /* ColorPickerControllerViewController.h */,
-				B6D550EF155BA03A0095FFBC /* ColorPickerControllerViewController.m */,
-				B6D550FE155BC5E20095FFBC /* BrightnessSliderView.h */,
-				B6D550FF155BC5E20095FFBC /* BrightnessSliderView.m */,
-				B6D550F1155BA6FF0095FFBC /* brightnessSlider.png */,
-				B6D550F2155BA6FF0095FFBC /* brightnessSlider@2x.png */,
-				B6D550F3155BA6FF0095FFBC /* gradient.png */,
-				B6D550E2155B9D980095FFBC /* blackCircle.png */,
-				B6D550E3155B9D980095FFBC /* blackCircle@2x.png */,
-				B6D550E4155B9D980095FFBC /* colorCircle.png */,
-				B6D550E5155B9D980095FFBC /* colorCircle@2x.png */,
-				B6D550E6155B9D980095FFBC /* colorSelection.png */,
-				B6D550E7155B9D980095FFBC /* colorSelection@2x.png */,
-				B6D550D2155B95650095FFBC /* CoreGraphicsUtils.h */,
-				B6D550D3155B95650095FFBC /* CoreGraphicsUtils.m */,
-				B6D550D4155B95650095FFBC /* IXColorPickerView.h */,
-				B6D550D5155B95650095FFBC /* IXColorPickerView.m */,
-			);
-			path = IXColorPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,16 +210,6 @@
 				357C6DEC153D3A2000C3EDDB /* ixPickerOverlaySectionWheel@2x.png in Resources */,
 				357C6DED153D3A2000C3EDDB /* ixPickerOverlayTexture.png in Resources */,
 				357C6DEE153D3A2000C3EDDB /* ixPickerOverlayTexture@2x.png in Resources */,
-				B6D550E8155B9D980095FFBC /* blackCircle.png in Resources */,
-				B6D550E9155B9D980095FFBC /* blackCircle@2x.png in Resources */,
-				B6D550EA155B9D980095FFBC /* colorCircle.png in Resources */,
-				B6D550EB155B9D980095FFBC /* colorCircle@2x.png in Resources */,
-				B6D550EC155B9D980095FFBC /* colorSelection.png in Resources */,
-				B6D550ED155B9D980095FFBC /* colorSelection@2x.png in Resources */,
-				B6D550F4155BA6FF0095FFBC /* brightnessSlider.png in Resources */,
-				B6D550F5155BA6FF0095FFBC /* brightnessSlider@2x.png in Resources */,
-				B6D550F6155BA6FF0095FFBC /* gradient.png in Resources */,
-				B6D55102155BD9420095FFBC /* CustomControllsTableView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,13 +223,6 @@
 				357C6DC0153D39CC00C3EDDB /* main.m in Sources */,
 				357C6DC4153D39CC00C3EDDB /* AppDelegate.m in Sources */,
 				357C6DEF153D3A2000C3EDDB /* IXPickerOverlayView.m in Sources */,
-				B6D55096155B77450095FFBC /* CustomControllsTableViewController.m in Sources */,
-				B6D550B1155B888E0095FFBC /* IXActionSheetController.m in Sources */,
-				B6D550B4155B88D30095FFBC /* ActionSheetController.m in Sources */,
-				B6D550D6155B95650095FFBC /* CoreGraphicsUtils.m in Sources */,
-				B6D550D7155B95650095FFBC /* IXColorPickerView.m in Sources */,
-				B6D550F0155BA03A0095FFBC /* ColorPickerControllerViewController.m in Sources */,
-				B6D55100155BC5E20095FFBC /* BrightnessSliderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

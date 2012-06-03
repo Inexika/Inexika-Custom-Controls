@@ -16,8 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"CustomControllsTableView" bundle:nil];
-    self.viewController = [sb instantiateViewControllerWithIdentifier:@"CustomControllers"];
+    self.viewController = [[UIViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

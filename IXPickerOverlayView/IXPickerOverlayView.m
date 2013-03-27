@@ -109,7 +109,6 @@
     [path applyTransform:CGAffineTransformMakeScale(1, -1)];
     self.textureLayer.path = path.CGPath;
     
-    
     UIImageView* leftPane = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, leftPaneWidth, totalHeight)];
     leftPane.image = [self imageForLeftPane];
     leftPane.contentStretch = CGRectMake(0, 0, 0, 1);
@@ -122,8 +121,17 @@
     
     CGFloat x = leftPaneWidth;
     
-    UIColor *topCornerColor = [UIColor colorWithRed:56.f/255 green:57.f/255 blue:60.f/255 alpha:1.0f];
-    UIColor *bottomCornerColor = [UIColor colorWithRed:60.f/255 green:60.f/255 blue:71.f/255 alpha:1.0f];
+    UIColor *topCornerColor;
+    UIColor *bottomCornerColor;
+    
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+        ([UIScreen mainScreen].scale == 2.0)) {
+        topCornerColor = [UIColor colorWithRed:56.f/255 green:57.f/255 blue:60.f/255 alpha:1.0f];
+        bottomCornerColor = [UIColor colorWithRed:60.f/255 green:60.f/255 blue:71.f/255 alpha:1.0f];
+    } else {
+        topCornerColor = [UIColor colorWithRed:50.f/255 green:50.f/255 blue:56.f/255 alpha:1.0f];
+        bottomCornerColor = [UIColor colorWithRed:61.f/255 green:61.f/255 blue:71.f/255 alpha:1.0f];
+    }
     
     UIView *topLeftCorner = [[UIView alloc] initWithFrame:CGRectMake(x, 10, 3, .5)];
     topLeftCorner.backgroundColor = topCornerColor;

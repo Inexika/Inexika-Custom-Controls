@@ -110,13 +110,13 @@
     self.textureLayer.path = path.CGPath;
     
     UIImageView* leftPane = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, leftPaneWidth, totalHeight)];
-    leftPane.image = [self imageForLeftPane];
-    leftPane.contentStretch = CGRectMake(0, 0, 0, 1);
+    UIImage* leftPaneImage = [self imageForLeftPane];
+    leftPane.image = [leftPaneImage resizableImageWithCapInsets:UIEdgeInsetsMake(0., 0., 0., leftPaneImage.size.width)];
     [self addSubview:leftPane];
     
     UIImageView* rightPane = [[UIImageView alloc] initWithFrame:CGRectMake(totalWidth - rightPaneWidth, 0, rightPaneWidth, totalHeight)];
-    rightPane.image = [self imageForRightPane];
-    rightPane.contentStretch = CGRectMake(1, 0, 0, 1);
+    UIImage* rightPaneImage = [self imageForRightPane];
+    rightPane.image = [rightPaneImage resizableImageWithCapInsets:UIEdgeInsetsMake(0., rightPaneImage.size.width, 0., 0.)];
     [self addSubview:rightPane];
     
     CGFloat x = leftPaneWidth;
@@ -153,8 +153,8 @@
         CGFloat sectionWidth = [picker rowSizeForComponent:i].width + sectionExceedWidth;
         
         UIImageView* sectionWheel = [[UIImageView alloc] initWithFrame:CGRectMake(x, 0, sectionWidth, totalHeight)];
-        sectionWheel.image = [self imageForSectionWheel];
-        sectionWheel.contentStretch = CGRectMake(0, 0.25f, 1, 0.5f);
+        UIImage* sectionWheelImage = [self imageForSectionWheel];
+        sectionWheel.image = [sectionWheelImage resizableImageWithCapInsets:UIEdgeInsetsMake(0.25 * sectionWheelImage.size.height, 0., 0.25 * sectionWheelImage.size.height, 0.)];
         [self addSubview:sectionWheel];
         x += sectionWidth;
         
@@ -162,8 +162,8 @@
             break;
         
         UIImageView* sectionsSeparator = [[UIImageView alloc] initWithFrame:CGRectMake(x, 0, separatorWidth, totalHeight)];
-        sectionsSeparator.image = [self imageForSectionsSeparator];
-        sectionsSeparator.contentStretch = CGRectMake(0, 0.25f, 1, 0.5f);
+        UIImage* sectionsSeparatorImage = [self imageForSectionsSeparator];
+        sectionsSeparator.image = [sectionsSeparatorImage resizableImageWithCapInsets:UIEdgeInsetsMake(0.25 * sectionsSeparatorImage.size.height, 0., 0.25 * sectionsSeparatorImage.size.height, 0.)];
         [self addSubview:sectionsSeparator];
         x += separatorWidth;
     }
@@ -175,8 +175,7 @@
         const CGFloat glassExceed = 6.0f;
         CGRect glassFrame = CGRectMake(leftPaneWidth - glassExceed, glassY, totalWidth - panesWidth + 2*glassExceed, glassHeight);
         UIImageView* glass = [[UIImageView alloc] initWithFrame:glassFrame];
-        glass.image = glassImage;
-        glass.contentStretch = CGRectMake(0.5f, 0, 0, 1);
+        glass.image = [glassImage resizableImageWithCapInsets:UIEdgeInsetsMake(0., 0.5 * glassImage.size.width, 0., 0.5 * glassImage.size.width)];
         [self addSubview:glass];
     }
 }
